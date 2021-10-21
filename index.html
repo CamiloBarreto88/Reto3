@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 2 MinTIC</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+
+<body>
+<h1> ALQUILER DE CARROS </h1>
+<h2> Operaciones en la base de datos de los vehiculos </h2>
+<div id="resultado"></div>
+<button onclick="traerInformacion()"> Consultar </button>
+
+<div>
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="brand" placeholder="brand">
+    <input type="number" id="model" placeholder="model">
+    <input type="number" id="category_id" placeholder="category_id">
+</div>
+
+<button onclick="guardarInformacion()"> Guardar </button>
+<button onclick="editarInformacion()"> Actualizar </button>
+
+<h2> Operaciones en la base de datos de los clientes </h2>
+<div id="resultado2"></div>
+<button onclick="traerInformacion2()"> Consultar </button>
+
+<div>
+    <input type="number" id="id2" placeholder="id2">
+    <input type="text" id="name" placeholder="name">
+    <input type="text" id="email" placeholder="email">
+    <input type="number" id="age" placeholder="age">
+</div>
+
+<button onclick="guardarInformacion2()"> Guardar </button>
+<button onclick="editarInformacion2()"> Actualizar </button>
+
+<h2> Operaciones en la base de datos de mensajes </h2>
+<div id="resultado3"></div>
+<button onclick="traerInformacion3()"> Consultar </button>
+
+<div>
+    <input type="number" id="id3" placeholder="id3">
+    <input type="text" id="messagetext" placeholder="messagetext">
+</div>
+
+<button onclick="guardarInformacion3()"> Guardar </button>
+<button onclick="editarInformacion3()"> Actualizar </button>
+
+</body>   
+</html>
